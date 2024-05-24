@@ -22,7 +22,7 @@ return { -- You can easily change to a different colorscheme.
       styles = {
         bold = true,
         italic = true,
-        transparency = true,
+        transparency = false,
       },
 
       groups = {
@@ -57,7 +57,7 @@ return { -- You can easily change to a different colorscheme.
       },
 
       highlight_groups = {
-        Comment = { fg = 'foam' },
+        Comment = { fg = 'iris' },
         -- VertSplit = { fg = "muted", bg = "muted" },
       },
 
