@@ -30,7 +30,7 @@ return { -- You can easily change to a different colorscheme.
       dim_inactive = false,
       transparent_mode = false,
     }
-    -- vim.cmd.colorscheme 'neofusion' -- uncomment this line to set this as default colorscheme
+    vim.cmd.colorscheme 'neofusion' -- uncomment this line to set this as default colorscheme
   end,
   priority = 1000, -- Make sure to load this before all the other start plugins.
 }

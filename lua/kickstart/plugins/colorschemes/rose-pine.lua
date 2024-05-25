@@ -73,7 +73,7 @@ return { -- You can easily change to a different colorscheme.
         end
       end,
     }
-    vim.cmd.colorscheme 'rose-pine-moon' -- uncomment this line to set as default colorscheme
+    -- vim.cmd.colorscheme 'rose-pine-moon' -- uncomment this line to set as default colorscheme
   end,
   priority = 1000, -- Make sure to load this before all the other start plugins.
 }
