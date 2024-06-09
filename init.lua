@@ -122,6 +122,11 @@ vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>', { desc = 'Exit terminal mode' }
 -- vim.keymap.set('n', '<up>', '<cmd>echo "Use k to move!!"<CR>')
 -- vim.keymap.set('n', '<down>', '<cmd>echo "Use j to move!!"<CR>')
 
+-- Set up split keybinds
+vim.keymap.set('n', '<leader>Sv', ':vsplit<CR>', { desc = 'Open vertical split' })
+vim.keymap.set('n', '<leader>Sh', ':split<CR>', { desc = 'Open horizontal split' })
+vim.keymap.set('n', '<leader>Sx', ':close<CR>', { desc = 'Close split' })
+
 -- Keybinds to make split navigation easier.
 --  Use CTRL+<hjkl> to switch between windows
 --
@@ -248,6 +253,7 @@ require('lazy').setup({
   require 'kickstart.plugins.trouble',
   require 'kickstart.plugins.lualine',
   require 'kickstart.plugins.startup-nvim',
+  require 'kickstart.plugins.leetcode',
   -- require 'kickstart.plugins.gitsigns', -- adds gitsigns recommend keymaps
 
   -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
